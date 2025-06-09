@@ -1,13 +1,13 @@
 // App.js
 import React from 'react';
 import Header from '@/app/component/header';
-import OldGlassLoginForm from '@/app/component/login'; // Componente del form
+import OldGlassLoginForm from '@/app/component/sostienici'; // Componente del form
 import Footer from '@/app/component/footer';
 
 function App() {
   const navItems = [
-    { name: 'Home', href: '#' },
-    { name: 'Servizi', href: '#', dropdown: ['Servizio I', 'Servizio II', 'Servizio III'] },
+    { name: 'Home', href: '/' },
+    { name: 'Servizi', href: '#', },
     { name: 'Intranet', href: '#' },
     { name: 'Contatti', href: '#' },
   ];
@@ -19,7 +19,7 @@ function App() {
       { id: 'nome', label: 'Nome', type: 'text', placeholder: 'Nome' },
       { id: 'password', label: 'Password', type: 'password', placeholder: 'Password' },
     ],
-    buttonText: 'ACCEDI',
+    buttonText: '',
     forgotPasswordLink: {
       text: 'Cambia password',
       href: '#',

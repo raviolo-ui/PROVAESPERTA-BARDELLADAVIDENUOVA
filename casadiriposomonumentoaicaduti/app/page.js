@@ -10,9 +10,9 @@ function App() {
     { name: 'Homepage', href: '#' },
     { name: 'Servizi', href: 'Servizi',  },
     { name: 'PERCHE L IPAB', href: 'Perche',},
-    { name: 'Sostienici', href: '#',},
+    { name: 'Sostienici', href: 'Sostienici',},
     { name: 'Accessi Riservati', href: 'Login',},
-    { name: 'PRIVACY', href: '#',},
+   
   ];
 
   const iconBoxData = [
