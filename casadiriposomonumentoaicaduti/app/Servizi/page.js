@@ -1,9 +1,9 @@
 // App.js
 import React from 'react';
-import Header from './component/header';
-import HeroSection from './component/herosection';
-import IconBoxes from './component/iconboxes';
-import Footer from './component/footer';
+import Header from '@/app/component/header';
+import HeroSection from '@/app/component/herosection';
+import IconBoxes from '@/app/component/iconboxes';
+import Footer from '@/app/component/footer';
 
 function App() {
   const navItems = [
