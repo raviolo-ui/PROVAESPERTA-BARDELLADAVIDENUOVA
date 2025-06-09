@@ -18,7 +18,7 @@ function App() {
       { label: 'Home', href: '#' },
       { label: 'Servizi Aggiuntivi', href: '#' },
     ],
-    title: 'CENTRO DIURNO "ANCHISE"',
+    title: 'VISION E MISSION',
     intro: 'Il centro diurno è un servizio territoriale di tipo semi-residenziale rivolto prevalentemente ad anziani con vario grado di non autosufficienza, con prevalente disturbo cognitivo. Gli obiettivi del servizio sono:',
     objectives: [
       'Sostegno e sollievo ai familiari e alla rete sociale di supporto',
@@ -48,44 +48,9 @@ function App() {
     ],
   };
   
-// Dati per il nuovo componente (tutto qui dentro)
-const Date = {
-    breadcrumb: [
-      { label: 'Home', href: '#' },
-      { label: 'Servizi Aggiuntivi', href: '#' },
-    ],
-    title: 'CENTRO DIURNO "ANCHISE"',
-    intro: 'Il centro diurno è un servizio territoriale di tipo semi-residenziale rivolto prevalentemente ad anziani con vario grado di non autosufficienza, con prevalente disturbo cognitivo. Gli obiettivi del servizio sono:',
-    objectives: [
-      'Sostegno e sollievo ai familiari e alla rete sociale di supporto',
-      'Contrastare fenomeni di isolamento e solitudine',
-      'Potenziale, mantenere e/o compensare abilità e competenze relative alla sfera dell’autonomia, dell’identità e dell’orientamento spazio-temporale, delle relazioni interpersonali e della socializzazione',
-      'Potenziale la rete di servizi per le persone anziane, proponendo interventi personalizzati, con progetti specifici rispondenti ai bisogni dei singoli.',
-    ],
-    activitiesIntro: 'Le attività del servizio sono:',
-    activities: [
-      'Assistenza tutelare diurna',
-      'Igiene e cura della persona, con stimolazione delle capacità residue',
-      'Somministrazione di colazione, pranzo e merenda con aiuto nell’alimentazione',
-      'Attività ricreative, culturali, occupazionali, per il mantenimento delle capacità espressive e relazionali, compatibilmente con le condizioni psico-fisiche',
-      'Attività terapeutico riabilitativa-fisioterapica',
-      'Supporto psicologico e sociale sia agli utenti che ai familiari',
-      'Assistenza sanitaria',
-    ],
-    professionalsIntro: 'Le figure professionali:',
-    professionals: [
-      'Coordinatore responsabile',
-      'Infermiere professionale',
-      'Operatore socio-sanitario',
-      'Assistente sociale',
-      'Educatore professionale',
-      'Fisioterapista',
-      'Psicologo',
-    ],
-  };
 
 
-
+  
   const contactInfo = {
     name: 'I.P.A.B. SAN DONÀ DI PIAVE',
     tel: '+39 0421 339011',

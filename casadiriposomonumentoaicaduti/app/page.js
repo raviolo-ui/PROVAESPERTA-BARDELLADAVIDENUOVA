@@ -9,11 +9,9 @@ function App() {
   const navItems = [
     { name: 'Homepage', href: '#' },
     { name: 'Servizi', href: 'Servizi',  },
-    { name: 'PERCHE L IPAB', href: '#',  },
-    { name: 'I.P.A.B informa', href: '#',  },
+    { name: 'PERCHE L IPAB', href: 'Perche',},
     { name: 'Sostienici', href: '#',},
-    { name: 'Extranet', href: '#',},
-    { name: 'Accessi Riservati', href: '#',},
+    { name: 'Accessi Riservati', href: 'Login',},
     { name: 'PRIVACY', href: '#',},
   ];
 
